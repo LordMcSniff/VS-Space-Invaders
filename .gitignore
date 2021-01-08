@@ -3,6 +3,7 @@ Space-Invaders/*.tar
 Space-Invaders/*.gz
 Space-Invaders/*.7z
 
+Space-Invaders/assets/images/*.gif
 
 
 ## Ignore Visual Studio temporary files, build results, and
