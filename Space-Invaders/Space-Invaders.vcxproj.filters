@@ -42,13 +42,16 @@
     <ClCompile Include="Space-Invaders\World.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Space-Invaders\Entity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Space-Invaders\Entities\Laser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Space-Invaders\Entities\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Space-Invaders\Entities\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Space-Invaders\ObjectHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,13 +83,16 @@
     <ClInclude Include="Space-Invaders\World.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Space-Invaders\Entity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Space-Invaders\Entities\Laser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Space-Invaders\Entities\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Space-Invaders\Entities\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Space-Invaders\ObjectHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

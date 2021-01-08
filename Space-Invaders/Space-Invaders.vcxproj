@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Space-Invaders\ObjectHandler.cpp" />
     <ClCompile Include="Engine\Engine.cpp" />
     <ClCompile Include="Engine\Graphics\Sprite.cpp" />
     <ClCompile Include="Engine\Graphics\Texture.cpp" />
@@ -148,12 +149,13 @@
     <ClCompile Include="Engine\Math\Vector3.cpp" />
     <ClCompile Include="Engine\Physics\Rigidbody.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Space-Invaders\Entity.cpp" />
+    <ClCompile Include="Space-Invaders\Entities\Entity.cpp" />
     <ClCompile Include="Space-Invaders\Entities\Laser.cpp" />
     <ClCompile Include="Space-Invaders\Entities\Player.cpp" />
     <ClCompile Include="Space-Invaders\World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Space-Invaders\ObjectHandler.h" />
     <ClInclude Include="Engine\Engine.h" />
     <ClInclude Include="Engine\Graphics\Sprite.h" />
     <ClInclude Include="Engine\Graphics\Texture.h" />
@@ -162,7 +164,7 @@
     <ClInclude Include="Engine\Math\Vector3.h" />
     <ClInclude Include="Engine\Physics\Rigidbody.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="Space-Invaders\Entity.h" />
+    <ClInclude Include="Space-Invaders\Entities\Entity.h" />
     <ClInclude Include="Space-Invaders\Entities\Laser.h" />
     <ClInclude Include="Space-Invaders\Entities\Player.h" />
     <ClInclude Include="Space-Invaders\World.h" />
