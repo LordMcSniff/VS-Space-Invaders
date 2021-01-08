@@ -30,6 +30,9 @@ public:
 	Vector3& operator-=(const Vector3& other);
 
 
+	bool operator<(const Vector3& other);
+	bool operator>(const Vector3& other);
+
 	bool operator==(const Vector3& other);
 	bool operator!=(const Vector3& other);
 
@@ -37,8 +40,6 @@ public:
 	float y;
 	float z;
 
-private:
-	float magnitude;
 };
 
 #endif

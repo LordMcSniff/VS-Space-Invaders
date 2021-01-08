@@ -134,6 +134,23 @@ Vector3& Vector3::operator-=(const Vector3& other)
 }
 
 
+bool Vector3::operator<(const Vector3& other)
+{
+	if (other.x < x && other.y < y && other.z < z)
+	{
+		return true;
+	}
+	return false;
+}
+bool Vector3::operator>(const Vector3& other)
+{
+	if (other.x > x && other.y > y && other.z > z)
+	{
+		return true;
+	}
+	return false;
+}
+
 bool Vector3::operator==(const Vector3& other)
 {
 	return (x == other.x && y == other.y && z == other.z);
